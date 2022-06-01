@@ -1,0 +1,10 @@
+import { createSlice } from "@reduxjs/toolkit"
+
+const topics = createSlice({
+    initialState: {
+        topics: {}
+    },
+    reducers: {
+        addTopic
+    }
+})
